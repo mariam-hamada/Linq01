@@ -34,6 +34,21 @@ namespace LINQ_Assigment1
             //}
 
             #endregion
+
+            #region Question3
+            // 3.Sort all products by UnitPrice(ascending). Print each product's name and price. 
+            //var result = Source.ProductList
+            //                   .OrderBy(p => p.UnitPrice)
+            //                   .Select(p => new { p.ProductName, p.UnitPrice });
+
+            //foreach (var product in result)
+            //{
+            //    Console.WriteLine($"Product Name: {product.ProductName} , Price: {product.UnitPrice}");
+            //}
+
+
+            #endregion
+
         }
     }
 }
