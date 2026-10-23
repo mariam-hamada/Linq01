@@ -62,6 +62,20 @@ namespace LINQ_Assigment1
 
             #endregion
 
+            #region Question5
+            //5. Get all products that are in stock (UnitsInStock > 0) and belong to the "Condiments" category. 
+
+            //var result = Source.ProductList
+            //                   .Where(p => p.UnitsInStock >0 && p.Category == "Condiments")
+            //                   .Select(p => new { p.ProductName, p.UnitsInStock , p.Category });
+
+            //foreach (var product in result)
+            //{
+            //    Console.WriteLine($"Product Name: {product.ProductName} , Stock: {product.UnitsInStock} , Category: {product.Category}");
+            //}
+
+            #endregion
+
         }
     }
 }
