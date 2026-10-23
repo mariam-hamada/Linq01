@@ -76,6 +76,29 @@ namespace LINQ_Assigment1
 
             #endregion
 
+            #region Question6
+            //6. Create a new anonymous type with three properties: ● Name → the product name
+            //● Price → the unit price
+            //● StockStatus → a string: "Available" if UnitsInStock > 0, otherwise "Out of Stock"
+            //● Print the result.
+
+            //var result = Source.ProductList
+            //                    .Select(p => new
+            //                    {
+            //                        Name = p.ProductName,
+            //                        Price = p.UnitPrice,
+            //                        StockStatus = p.UnitsInStock > 0 ? "Available" : "Out of Stock"
+            //                    });
+
+            //foreach (var product in result)
+            //{
+            //    Console.WriteLine($"Product Name: {product.Name} , Price: {product.Price} , Stock Status: {product.StockStatus}");
+            //}
+
+
+
+            #endregion
+
         }
     }
 }
