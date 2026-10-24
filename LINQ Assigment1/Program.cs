@@ -1,5 +1,6 @@
 ﻿using LINQ_Assigment1.DataSources;
 using LINQ_Assigment1.Models;
+using System.Diagnostics.Metrics;
 using System.Drawing;
 using System.Security.Cryptography;
 
@@ -171,6 +172,23 @@ namespace LINQ_Assigment1
             //String[] Arr = { "aPPLE", "AbAcUs", "bRaNcH", "BlUeBeRrY", "ClOvEr", "cHeRry" };
 
             //var result = Arr.OrderBy(x => x.Length).ThenBy(x => x, StringComparer.OrdinalIgnoreCase);
+
+            //foreach (var word in result)
+            //{
+            //    Console.WriteLine(word);
+            //}
+
+            #endregion
+
+            #region Question13
+            //13.Create a list of all digits in the array whose second letter is 'i' that is reversed from the order in the original array.
+            //String [] Arr = {"aPPLE", "AbAcUs", "bRaNcH", "BlUeBeRrY", "ClOvEr", "cHeRry"};
+            //var result = Arr.Where(w => w.Length > 1 && w[1] == 'i').Reverse() .ToList();
+
+            //foreach (var word in result)
+            //{
+            //    Console.WriteLine(word);
+            //}
 
             //foreach (var word in result)
             //{
