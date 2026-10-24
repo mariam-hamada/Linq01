@@ -1,6 +1,7 @@
 ﻿using LINQ_Assigment1.DataSources;
 using LINQ_Assigment1.Models;
 using System.Drawing;
+using System.Security.Cryptography;
 
 namespace LINQ_Assigment1
 {
@@ -134,6 +135,22 @@ namespace LINQ_Assigment1
             //{
             //    Console.WriteLine($"Product Name: {product.ProductName} , Stock: {product.UnitsInStock}");
             //}
+
+            #endregion
+
+            #region Question10
+            //10. Using QUERY SYNTAX with a compound from clause, list all orders placed in 1997 or later showing CustomerID and OrderDate.
+            //var result = from c in Source.CustomerList
+            //             from o in c.Orders
+            //             where o.OrderDate.Year >=1997 
+            //             select new { c.CustomerID, o.OrderDate }
+            //;
+
+            //foreach (var order in result)
+            //{
+            //    Console.WriteLine($"Customer ID: {order.CustomerID} , Order Date: {order.OrderDate}");
+            //}
+
 
             #endregion
 
