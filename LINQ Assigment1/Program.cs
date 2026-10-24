@@ -166,6 +166,19 @@ namespace LINQ_Assigment1
 
             #endregion
 
+            #region Question12
+            //12. Sort first by-word length and then by a case -insensitive sort of the words in an array. String[] Arr = { "aPPLE", "AbAcUs", "bRaNcH", "BlUeBeRrY", "ClOvEr", "cHeRry" };
+            //String[] Arr = { "aPPLE", "AbAcUs", "bRaNcH", "BlUeBeRrY", "ClOvEr", "cHeRry" };
+
+            //var result = Arr.OrderBy(x => x.Length).ThenBy(x => x, StringComparer.OrdinalIgnoreCase);
+
+            //foreach (var word in result)
+            //{
+            //    Console.WriteLine(word);
+            //}
+
+            #endregion
+
         }
     }
 }
