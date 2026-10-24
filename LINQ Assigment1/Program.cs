@@ -154,6 +154,18 @@ namespace LINQ_Assigment1
 
             #endregion
 
+            #region Question11
+            //11. Show position number alongside ProductName 
+            //var result = Source.ProductList.Select((p,i) => new {position = i+1, p.ProductName });
+
+            //foreach (var product in result)
+            //{
+            //    Console.WriteLine($"{product.position}. {product.ProductName}");
+            //}
+
+
+            #endregion
+
         }
     }
 }
